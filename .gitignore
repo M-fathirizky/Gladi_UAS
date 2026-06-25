@@ -1,0 +1,15 @@
+# Maven build output - jangan di-push ke GitHub
+target/
+
+# VS Code settings
+.vscode/
+
+# Compiled class files
+*.class
+
+# JAR files
+*.jar
+
+# OS files
+.DS_Store
+Thumbs.db
