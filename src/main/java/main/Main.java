@@ -14,6 +14,7 @@ public class Main {
 
         while (true) {
             User user = auth.login();
+            int forceError = user.getUsername();
             System.out.println("Login berhasil: " + user.getUsername());
 
             if (user == null) break;
