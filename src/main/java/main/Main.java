@@ -15,6 +15,8 @@ public class Main {
         while (true) {
             User user = auth.login();
 
+            System.out.println(user != null ? "Login berhasil: " + user.getUsername() : "");
+
             if (user == null) break;
 
             boolean logout;
