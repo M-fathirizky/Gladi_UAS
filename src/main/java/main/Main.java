@@ -14,8 +14,9 @@ public class Main {
 
         while (true) {
             User user = auth.login();
-
+            
             if (user == null) break;
+            System.out.println("Login berhasil: " + user.getUsername());
 
             boolean logout;
             if (user.isAdmin()) {
